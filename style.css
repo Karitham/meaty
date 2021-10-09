@@ -1,0 +1,49 @@
+@import url(https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css);
+
+html {
+  box-sizing: border-box;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cytube {
+  width: 90vw;
+  height: 75vh;
+}
+
+footer {
+  padding-top: 1rem;
+}
+
+.meaty {
+  color: #bb3333;
+  font-weight: bolder;
+}
+
+a,
+a:visited {
+  color: #bb3333;
+  text-decoration: none;
+}
